@@ -1,0 +1,4 @@
+[submodule "GK_RN_2021"]
+	path = GK_RN_2021
+	url = https://github.com/gkinfotech/GK_RN_2021
+	branch = GK_RN/Fundas
