@@ -1,0 +1,14 @@
+{
+  "typescript.validate.enable": false,
+  "flow.pathToFlow": "${workspaceRoot}/node_modules/.bin/flow",
+  "typescript.check.npmIsInstalled": false,
+  "prettier.jsxBracketSameLine": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.useTabs": true,
+  "prettier.tabWidth": 4,
+  "editor.formatOnSave": true,
+  "prettier.useEditorConfig": true,
+  "prettier.bracketSpacing": true,
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
+}

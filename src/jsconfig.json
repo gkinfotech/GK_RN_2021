@@ -1,0 +1,4 @@
+// to fix auto import 
+{
+  "exclude": ["node_modules"]
+}
