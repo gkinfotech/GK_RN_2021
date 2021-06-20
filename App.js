@@ -1,10 +1,12 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, StyleSheet } from 'react-native';
 
 export default function App() {
     return (
         <View style={styles.container}>
-            <Text> Hello Gokul!</Text>
+            <View style={styles.childContainer} />
+            <View style={styles.childContainer1} />
+            <View style={styles.childContainer2} />
         </View>
     );
 }
@@ -12,8 +14,18 @@ export default function App() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
+        backgroundColor: '#fff',
+    },
+    childContainer: {
+        flex: 1,
         backgroundColor: 'dodgerblue',
-        alignItems: 'center',
-        justifyContent: 'center',
+    },
+    childContainer1: {
+        flex: 1,
+        backgroundColor: 'gold',
+    },
+    childContainer2: {
+        flex: 1,
+        backgroundColor: 'tomato',
     },
 });
